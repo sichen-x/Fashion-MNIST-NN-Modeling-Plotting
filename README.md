@@ -10,7 +10,7 @@ Refs:
 * [1] https://github.com/zalandoresearch/fashion-mnist
 * [2] https://arxiv.org/abs/1703.00810
 
-# Final Solution 
+## Final Solution 
 So far I leverage the existing [code base](https://github.com/mutual-ai/Information-Bottleneck-for-Deep-Learning) on Github, by 
 * tuning the learning rate
 * Choosing Relu activation function
