@@ -15,6 +15,7 @@ So far I leverage the existing [code base](https://github.com/mutual-ai/Informat
 * tuning the learning rate
 * Choosing Relu activation function
 * Plotting the Information Plane with number of hidden layer changed: from 1 to 6
+fme.ipynb is the final plots. 
 
 I also want to writing more about the approaches I used and the future plan for better solution.
 
