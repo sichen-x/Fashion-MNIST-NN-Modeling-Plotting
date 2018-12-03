@@ -20,8 +20,8 @@ fme.ipynb is the final plots.
 
 I also want to writing more about the approaches I used and the future plan for better solution.
 
-# Approaches
-## IDNNs
+## Approaches
+### IDNNs
 At the beginning, my first option was to choose to base my solution upon this [IDNNs](https://github.com/ravidziv/IDNNs), because it is able to plot almost the same charts as the [paper](https://arxiv.org/abs/1703.00810) demonstrates. 
 So, I wanted to leverage this code by passing all the possible hyper-parameters to this algorithm for tuning and plotting.
 Generally the pipe line of this algorithm is:
@@ -37,11 +37,11 @@ There are two ways of loading the data to the algorithm. 1) is from the mat file
 
 At this time point, more than half of my 24-hour assignment time is gone. So I had to choose some other options.
 
-## Information-Bottleneck-for-Deep-Learning
+### Information-Bottleneck-for-Deep-Learning
 The coding style is much better in this code repository, which saved some of my time in understanding the code. So I chose to try some luck in there, but the finally charts plotted doesn't have the same style as the paper mentioned. It is a pity.
 I also observed another issue: which is with SGD. Within the limited iteration number, using SGD (batch_size is 1)has less acuracy than mini-batch. So I finally choose mini batch (batch_size = 20) and with other tuned hyper-parameters. Perhaps, the hyper-parameters are not properly tuned. But my time was almost up.
 
-# Future Improvements
+## Future Improvements
 Because of the time limitation, so far whatever I can submit is the codes or notebooks under this repository. But during the exploration, I think the best way is to 
 1) Build the NN model over Tensorflow, train it and test
 2) Find a way to be able to save the data for later-on plotting
